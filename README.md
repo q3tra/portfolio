@@ -1,7 +1,14 @@
-# Portfolio
+# theoooo.studio
 
-Portfolio artistique de Théo : projets, boutique, publications graphiques.
+Portfolio artistique de Theo : projets, boutique, publications graphiques.
 
-- Hébergement : Cloudflare Pages
-- Domaine : à confirmer
-- Instagram : @theoooopoint
+- Site statique dans `public/`
+- Hébergé sur Cloudflare (Workers, fichiers statiques), domaine `theoooo.studio`
+- Instagram : [@theoooopoint](https://www.instagram.com/theoooopoint/)
+
+## Mettre en ligne
+
+```bash
+npx wrangler login    # une seule fois
+npx wrangler deploy
+```

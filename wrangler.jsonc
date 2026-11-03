@@ -1,0 +1,9 @@
+{
+  "name": "theoooo-studio",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "theoooo.studio", "custom_domain": true },
+    { "pattern": "www.theoooo.studio", "custom_domain": true }
+  ]
+}
